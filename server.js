@@ -33,4 +33,7 @@ app.get("/poems:id", function(req, res){
 });
 
 
-app.listen(2627);
+const port = process.env.PORT || 2627;
+app.listen(port, () => {
+  console.log(`listening on port ${port}`);
+});
