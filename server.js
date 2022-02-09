@@ -30,6 +30,9 @@ app.get("/poems:id", function(req, res){
     },
     {
       id: 3,title: 'Wisdom ', type: 'Deep',des: 'when you talk you dont learn'
+    },
+    {
+      id: 4,title: 'Giant ', type: 'Deep',des: 'fee fye fom'
     }
     ]
    res.send(poems)
